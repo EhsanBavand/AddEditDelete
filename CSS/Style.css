@@ -1,0 +1,13 @@
+table {
+  alig: center;
+  border: 1px solid red;
+  width: 300;
+}
+tr{
+
+    alig: center;
+    border: 1px solid red;
+}
+h6{
+  color: red;
+}

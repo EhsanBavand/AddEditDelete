@@ -1,0 +1,26 @@
+<html>
+
+<head>
+	<script src="js/function.js"></script>
+	<link rel="stylesheet" href="CSS/Style.css">
+</head>
+
+<body>
+	Fisrt Name : <input type="text" id="txtFname" /><br />
+	Last Name : <input type="text" id="txtLname" /><br />
+	<input type="button" value="ADD" onclick="addPerson(this)" id="btnAdd"><br />
+
+	<hr>
+	<input type="button" value="Delete" onclick="deleteSelected()">
+	<table id="tblPerson">
+		<tr>
+			<th><input type="checkbox" id="ckAll" onclick="ckDeleteAll(ckAll)" /></th>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Operation</th>
+		</tr>
+	</table>
+
+</body>
+
+</html>
